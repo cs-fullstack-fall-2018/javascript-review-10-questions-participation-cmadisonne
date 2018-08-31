@@ -83,6 +83,8 @@ Option 4:
 
 An error message will be displayed because there are multiple script tags in the body.
 
+I choose 2.
+
 <hr/>
 
 ### JavaScript Execution Context
@@ -180,6 +182,7 @@ Executed the finally block
 
 4) Could not call the function to log the info!
 
+I choose 2.
 <hr/>
 
 ### Input/Confirm (undefined/null)
@@ -225,6 +228,8 @@ The script in the following HTML page prompts the user for values and shows the 
 3) The "result" is: 31
 
 4) The "result" is: 20
+
+i choose 2.
 
 <hr/>
 
