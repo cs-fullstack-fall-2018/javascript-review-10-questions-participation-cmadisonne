@@ -1,6 +1,8 @@
 # JavaScript_Review_10_Questions_Participation
 10 JavaScript Questions to cover with the class
 
+KEY: 0 out of 9 correct
+4 or more correct answers to get the point
 <hr/>
 
 ### JavaScript Template Literals
@@ -85,6 +87,8 @@ An error message will be displayed because there are multiple script tags in the
 
 I choose 2.
 
+KEY: INCORRECT (Correct answer was 3)
+
 <hr/>
 
 ### JavaScript Execution Context
@@ -127,11 +131,11 @@ function doAction(data, size) {
          var newData = data.substring(0, size);
          var result = newData.split(' ');
          return result;
-} 
+}
 ```
 
 * What will be displayed when you preview this page in the browser?
-
+KEY: INCORRECT/No answer (Correct answer was 4)
 
 1) This|is|a|test#that#illustrates
 
@@ -146,7 +150,7 @@ function doAction(data, size) {
 ### Try/Catch/Throw
 MSJS practice question 19
 
-The body of the HTML page contains the following script: 
+The body of the HTML page contains the following script:
 ```
     <script>
              var fileInfo = 'Could not process the file';
@@ -183,6 +187,7 @@ Executed the finally block
 4) Could not call the function to log the info!
 
 I choose 2.
+KEY: INCORRECT (Correct answer was 3)
 <hr/>
 
 ### Input/Confirm (undefined/null)
@@ -231,6 +236,8 @@ The script in the following HTML page prompts the user for values and shows the 
 
 i choose 2.
 
+KEY: INCORRECT (Correct answer was 3)
+
 <hr/>
 
 ### Typeof/null/undefined/hoisting
@@ -266,6 +273,7 @@ The following code snippet declares some variables and calls a function to print
 
 * What are the types of the variables?
 
+KEY: INCORRECT/No answer (Correct answer was D)
 Option 1:
 ```
 type of x: undefined
@@ -338,7 +346,7 @@ A form on a page contains the following markup:
          <div>
                   <label for="temp">Temp preference:</label>
                   32
-                  <input type="range" id="temp" name="tempPreference" 
+                  <input type="range" id="temp" name="tempPreference"
                        value="65" min="32" max="96" step="2">
                   96
          </div>
@@ -400,7 +408,7 @@ You have the following HTML page:
                   employees.forEach(function (item) {
                            console.log(`Name: ${item.name}, Salary: ${item.salary.toFixed(2)}`);
                   })
-       
+
          </script>
 </body>
 </html>
@@ -411,37 +419,37 @@ You have the following HTML page:
 Option 1:
 ```
 Name: Bryan, Salary: 7000.00
-Name: tom, Salary: 8000.00  
-Name: James, Salary: 10000.00  
+Name: tom, Salary: 8000.00
+Name: James, Salary: 10000.00
 Name: Tim, Salary: 14000.00
-Name: Jessica, Salary: 21000.00  
+Name: Jessica, Salary: 21000.00
 Name: Lisa, Salary: 33000.00
 ```
 Option 2:
 ```
-Name: James, Salary: 7000.00  
-Name: Bryan, Salary: 10000.00  
-Name: Tim, Salary: 21000.00  
-Name: Jessica, Salary: 33000.00  
-Name: Lisa, Salary: 14000.00  
+Name: James, Salary: 7000.00
+Name: Bryan, Salary: 10000.00
+Name: Tim, Salary: 21000.00
+Name: Jessica, Salary: 33000.00
+Name: Lisa, Salary: 14000.00
 Name: tom, Salary: 8000.00
 ```
 Option 3
 ```
-Name: Bryan, Salary: 7000.00  
-Name: James, Salary: 10000.00  
-Name: Jessica, Salary: 21000.00  
-Name: Lisa, Salary: 33000.00  
-Name: Tim, Salary: 14000.00  
+Name: Bryan, Salary: 7000.00
+Name: James, Salary: 10000.00
+Name: Jessica, Salary: 21000.00
+Name: Lisa, Salary: 33000.00
+Name: Tim, Salary: 14000.00
 Name: tom, Salary: 8000.00
 ```
 Option 4:
 ```
-Name: Bryan, Salary: 7000.00  
-Name: James, Salary: 10000.00  
-Name: Jessica, Salary: 21000.00  
-Name: Lisa, Salary: 33000.00 
-Name: tom, Salary: 8000.00 
+Name: Bryan, Salary: 7000.00
+Name: James, Salary: 10000.00
+Name: Jessica, Salary: 21000.00
+Name: Lisa, Salary: 33000.00
+Name: tom, Salary: 8000.00
 Name: Tim, Salary: 14000.00
 ```
 
@@ -487,7 +495,7 @@ A date is declared as follows:
 var d2 = new Date('March 11, 2005 02:30:00');
 ```
 
-Answer the following questions? 
+Answer the following questions?
 
 Question 1) The getDate() function will return: ___
 
@@ -540,7 +548,7 @@ You preview the following page in the browser:
             if (i <= 0) return;
             return names[i - 1];
         }
-        
+
         names.sort();
         var index = findIndex('orange');
 
